@@ -1,5 +1,5 @@
 # Copyright (C) 2014-2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,13 +18,11 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/bin/adspd:system/vendor/bin/adspd \
     vendor/motorola/victara/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/motorola/victara/proprietary/vendor/bin/batt_health:system/vendor/bin/batt_health \
     vendor/motorola/victara/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/motorola/victara/proprietary/vendor/bin/dbvc_atvc_property_set:system/vendor/bin/dbvc_atvc_property_set \
     vendor/motorola/victara/proprietary/vendor/bin/efsks:system/vendor/bin/efsks \
-    vendor/motorola/victara/proprietary/vendor/bin/gpsone_daemon:system/vendor/bin/gpsone_daemon \
-    vendor/motorola/victara/proprietary/vendor/bin/hardware_revisions.sh:system/vendor/bin/hardware_revisions.sh \
-    vendor/motorola/victara/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
+    vendor/motorola/victara/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
+    vendor/motorola/victara/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/victara/proprietary/vendor/bin/hvdcp:system/vendor/bin/hvdcp \
     vendor/motorola/victara/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/motorola/victara/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
@@ -35,12 +33,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/motorola/victara/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/motorola/victara/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
-    vendor/motorola/victara/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
+    vendor/motorola/victara/proprietary/vendor/bin/qmi_motext_hook:system/vendor/bin/qmi_motext_hook \
     vendor/motorola/victara/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/motorola/victara/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/motorola/victara/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/motorola/victara/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
-    vendor/motorola/victara/proprietary/vendor/bin/stm401:system/vendor/bin/stm401 \
+    vendor/motorola/victara/proprietary/bin/stm401:system/bin/stm401 \
     vendor/motorola/victara/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/victara/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/motorola/victara/proprietary/etc/acdbdata/victara/victara_Bluetooth_cal.acdb:system/etc/acdbdata/victara/victara_Bluetooth_cal.acdb \
@@ -99,7 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/motorola/victara/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
     vendor/motorola/victara/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
-    vendor/motorola/victara/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libadropbox.so:system/vendor/lib/libadropbox.so \
     vendor/motorola/victara/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/victara/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/victara/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
@@ -110,23 +108,21 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/lib/libchromatix_ar0543_preview.so:system/lib/libchromatix_ar0543_preview.so \
     vendor/motorola/victara/proprietary/lib/libchromatix_ar0543_snapshot.so:system/lib/libchromatix_ar0543_snapshot.so \
     vendor/motorola/victara/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
-    vendor/motorola/victara/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/motorola/victara/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/victara/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
     vendor/motorola/victara/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/victara/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/victara/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
-    vendor/motorola/victara/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libmdmcutback.so:system/vendor/lib/libmdmcutback.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/motorola/victara/proprietary/lib/libmmcamera_ar0543.so:system/lib/libmmcamera_ar0543.so \
     vendor/motorola/victara/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/victara/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/victara/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/victara/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
-    vendor/motorola/victara/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libmotext_inf.so:system/vendor/lib/libmotext_inf.so \
     vendor/motorola/victara/proprietary/lib/libmotocalibration.so:system/lib/libmotocalibration.so \
-    vendor/motorola/victara/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libqmimotext.so:system/vendor/lib/libqmimotext.so \
     vendor/motorola/victara/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/victara/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/victara/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
     vendor/motorola/victara/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
     vendor/motorola/victara/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
@@ -159,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/motorola/victara/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/motorola/victara/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/motorola/victara/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/motorola/victara/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/motorola/victara/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -248,6 +243,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
     vendor/motorola/victara/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/motorola/victara/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/motorola/victara/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/motorola/victara/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/motorola/victara/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
@@ -268,6 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/motorola/victara/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/motorola/victara/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/motorola/victara/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/motorola/victara/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/motorola/victara/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
@@ -278,11 +275,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/victara/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/motorola/victara/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/motorola/victara/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/victara/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/motorola/victara/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
