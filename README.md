@@ -18,4 +18,5 @@ Camera  | 13 MP, 4128 x 3096 pixels, autofocus, dual-LED flash
 
 This branch is for building Aosp Firmware.
 
-                ![image](https://user-images.githubusercontent.com/46964018/63714162-91f3fc80-c817-11e9-874e-b704269b3225.png)
+
+![image](https://user-images.githubusercontent.com/46964018/63714162-91f3fc80-c817-11e9-874e-b704269b3225.png)
