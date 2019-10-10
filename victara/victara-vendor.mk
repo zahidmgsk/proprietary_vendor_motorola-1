@@ -285,4 +285,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/motorola/victara/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/motorola/victara/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so\
-    vendor/motorola/victara/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so
+    vendor/motorola/victara/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so\
+    vendor/motorola/victara/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so
